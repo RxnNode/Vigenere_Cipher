@@ -24,11 +24,11 @@ int main() {
             if ( cybuff[j] != ' ') {
                 if (kc < kl -1) {
                     decbuff[j] = ((cybuff[j] - keybuff[kc] + 26)) % 26 + 'A';
-                    printf("%c %c %c\n",messbuff[j],keybuff[kc],decbuff[j]);
+                    //printf("%c %c %c\n",messbuff[j],keybuff[kc],decbuff[j]);
                 } else {
                     kc = 0;
                     decbuff[j] = ((cybuff[j] - keybuff[kc] + 26)) % 26 + 'A';
-                    printf("*%c %c %c\n",messbuff[j],keybuff[kc],decbuff[j]);
+                    //printf("*%c %c %c\n",messbuff[j],keybuff[kc],decbuff[j]);
                 }
                 kc++;
             } else{
@@ -36,6 +36,7 @@ int main() {
             }
         }
         printf("Enc: %s\n",cybuff);
+        printf("Key: %s\n",keybuff);
         printf("Dec: %s", decbuff);
     return 0;
 }
