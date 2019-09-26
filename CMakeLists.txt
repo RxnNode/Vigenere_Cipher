@@ -3,4 +3,4 @@ project(Vigenere_Cipher C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Vigenere_Cipher main.c)
+add_executable(Vigenere_Cipher main.c cmake-build-debug/rc4.cpp cmake-build-debug/rc4.h)

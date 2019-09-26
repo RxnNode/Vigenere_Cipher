@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Data000/Documents/GitHub/Vigenere_Cipher/cmake-build-debug/rc4.cpp">
+			<Option target="Vigenere_Cipher"/>
+		</Unit>
+		<Unit filename="C:/Users/Data000/Documents/GitHub/Vigenere_Cipher/cmake-build-debug/rc4.h">
+			<Option target="Vigenere_Cipher"/>
+		</Unit>
 		<Unit filename="C:/Users/Data000/Documents/GitHub/Vigenere_Cipher/main.c">
 			<Option target="Vigenere_Cipher"/>
 		</Unit>
